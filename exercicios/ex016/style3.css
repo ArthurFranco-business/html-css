@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body {
+    background-color: #2B413D;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif; color: white; background-color: #366B62;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif; color: white; background-color: #366B62;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif; color: white;
+}

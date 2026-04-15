@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+   <h1>Imagem dinâmica</h1> 
+   <p>Tente abrir esse site em vários dispositivos diferentes ou  simplesmente aumente ou diminua o tamanho do seu navegador</p>
+   <picture>
+    <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem Flexível">
+   </picture>
+   <h1>Reproduzindo Aúdio</h1>
+   <p>Vamos aprender a reproduzir audios em HTML 5</p>
+   <audio src="midia/Wooden Train Whistle.mp3" controls autoplay></audio>
+   <audio preload="metadata" autoplay controls loop> <!--Tipos, mpeg, ogg, wav-->
+    <source src="midia/Wooden Train Whistle.mp3" type="audio/mpeg">
+    <source src="midia/Wooden Train Whistle.ogg" type="audio/ogg">
+    <source src="midia/Wooden Train Whistle.wav" type="audio/wav">
+   </audio>
+   <p>Infelizmente se você não ouvio nada seu navegador não pode carregar aúdio.
+     <a href="midia/Wooden Train Whistle.mp3"> Clique aqui para baixar seu arquivo mp3.</a></p>
+     <hr>
+     <p> <i>Olha, se quiser pode ouvir esse texto com o aúdio abaixo.</i> </p>
+     <audio src="midia/a O poema tem um cli.mp3" controls></audio>
+     <p>a. O poema tem um clima triste porque trata da guerra e de seus efeitos <br> 
+        devastadores sobre as pessoas. O eu lírico vê o que está acontecendo, mas <br>
+         sente-se impotente para mudar a situação <br>
+        b. A palavra "fogo" representa a guerra, a destruição, enquanto <br>
+         "alimento" simboliza o  básico necessário para sobreviver. <br>
+          Isso mostra como, enquanto alguns estão focados na luta, outros <br>
+         estão apenas tentando sobreviver. O eu lírico percebe essa  <br> 
+         injustiça e se sente mal por isso.</p>
+</body>
+</html>
